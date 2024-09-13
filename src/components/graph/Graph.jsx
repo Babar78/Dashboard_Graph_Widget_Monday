@@ -76,7 +76,7 @@ const Graph = ({ data }) => {
   }, [data]);
 
   return (
-    <div style={{ width: "70vw", margin: "0 auto" }}>
+    <div style={{ width: "70vw", margin: "0 auto", backgroundColor: "white" }}>
       <canvas
         ref={chartRef}
         style={{ width: "100%", height: "500px" }}
